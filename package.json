@@ -21,6 +21,7 @@
   "license": "WTF",
   "dependencies": {
     "debug": "^2.2.0",
+    "is-root": "^1.0.0",
     "native-dns": "^0.7.0"
   }
 }

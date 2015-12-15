@@ -1,25 +1,26 @@
 {
-    "name": "dns-playground",
-    "version": "1.0.0",
-    "description": "dns playground",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "patch": "npm version patch -m \"patch %s\"",
-        "minor": "npm version minor -m \"patch %s\"",
-        "major": "npm version major -m \"patch %s\"",
-        "preversion": "echo \"npm test: undefined\" && node node_modules/.bin/npm-explicit-deps -y",
-        "version": "echo \"npm run build: undefined\"",
-        "postversion": "git push && git push --tags"
-    },
-    "keywords": [
-        "dns",
-        "playground",
-        "node"
-    ],
-    "author": "maboiteaspam",
-    "license": "WTF",
-    "dependencies": {
-        "native-dns": "^0.7.0"
-    }
+  "name": "dns-playground",
+  "version": "1.0.0",
+  "description": "dns playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch -m \"patch %s\"",
+    "minor": "npm version minor -m \"patch %s\"",
+    "major": "npm version major -m \"patch %s\"",
+    "preversion": "echo \"npm test: undefined\" && node node_modules/.bin/npm-explicit-deps -y",
+    "version": "echo \"npm run build: undefined\"",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "dns",
+    "playground",
+    "node"
+  ],
+  "author": "maboiteaspam",
+  "license": "WTF",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "native-dns": "^0.7.0"
+  }
 }
